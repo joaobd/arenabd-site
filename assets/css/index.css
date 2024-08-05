@@ -1,0 +1,292 @@
+/**
+    Azul    Padrão - #00affe
+    Azul Contraste - #2486fb
+    Amarelo        - #fff106
+    Preto          - #010101
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+a {
+  color: #fff106;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f9c62c;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  background: #fff106;
+  color: #2486fb;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #2486fb;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #f9c62c; 
+  color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  background: rgba(0, 175, 254, 0.9);
+}
+
+#header.header-scrolled {
+  background: rgba(0, 175, 254, 0.9);
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/
+.navbar>ul>li>a:before {
+  background-color: #fff106;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+#hero:before {
+  background: rgba(0, 175, 254    , 0.91);
+}
+
+#hero h1 span {
+  color: #fff;
+  border-bottom: 4px solid #fff106;
+}
+
+#hero .btn-get-started {
+    background: #fff106;
+    color: #2486fb;
+  }
+  
+#hero .btn-get-started:hover {
+background: #f9c62c;
+color: #fff
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f5f5ff;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #fff106;
+  margin: 4px 10px;
+}
+
+.section-title p {
+  color: #00affe;
+}
+
+/*--------------------------------------------------------------
+# Pricing
+--------------------------------------------------------------*/
+.pricing .box {
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing h3 {
+  font-weight: 400;
+  margin: -20px -20px 20px -20px;
+  padding: 20px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #777777;
+  background: #f8f8f8;
+}
+
+.pricing h4 {
+  font-size: 36px;
+  color: #00affe;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.pricing h4.yellow {
+  color: #fff106;
+}
+
+.pricing h4 span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing ul {
+  padding: 0;
+  list-style: none;
+  color: #444444;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.pricing ul li {
+  padding-bottom: 16px;
+}
+
+.pricing ul i {
+  color: #1acc8d;
+}
+
+.pricing ul .na {
+  color: #ccc;
+}
+
+
+.pricing .btn-buy {
+  background: #00affe;
+  color: #fff;
+}
+
+.pricing .btn-buy:hover {
+  background: #fff106;
+  color: #2486fb;
+}
+
+.pricing .featured h3 {
+  color: #fff;
+  background: #00affe;
+}
+
+.pricing .advanced {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: #00affe;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  background: #f8f8f8;
+  padding: 70px 0 60px;
+}
+
+.counts .count-box {
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: #fff;
+}
+
+.counts .count-box i {
+  background: #fff106;
+  color: #2486fb;
+}
+
+.counts .count-box span {
+  color: #343a40;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+#contact .btn-whatsapp, #contact .btn-instagram {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  
+  margin-bottom: 20px;
+}
+
+#contact .btn-whatsapp {
+  background: #1acc8d;
+}
+
+#contact .btn-whatsapp:hover {
+  background: #17b57d;
+}
+
+
+#contact .btn-instagram {
+  background: #fe0b81;
+}
+
+#contact .btn-instagram:hover {
+  background: #fe4aa1;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #00affe;
+  background: #010101;
+}
+
+#footer .copyright {
+  border-top: none;
+}
